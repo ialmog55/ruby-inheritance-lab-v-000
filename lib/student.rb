@@ -1,7 +1,7 @@
 class Student < User
 
-  def initailze
-    @knowledge= []
+  def initailze(knowledge=[])
+    @knowledge= knowledge
   end
   def learn(string)
     @knowledge << string
