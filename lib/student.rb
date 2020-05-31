@@ -1,5 +1,5 @@
 class Student < User
-  attr_accessor :knowledge
+  attr_writer :knowledge
   def initailze
     self.knowledge = []
   end
