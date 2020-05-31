@@ -1,10 +1,10 @@
 class Student < User
-  attr_writer :knowledge
+  attr_accessor :knowledge
   def initailze
-    self.knowledge = []
+    @knowledge = []
   end
   def learn(string)
-    self.knowledge << string
+    @knowledge << string
   end
 
 
