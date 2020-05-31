@@ -1,12 +1,12 @@
 class Student < User
-  attr_accessor :knowledge_array
+  attr_accessor :knowledge
   def initailze
-    @knowledge_array = []
+    @knowledge= []
   end
   def learn(string)
-    @knowledge_array << string
+    @knowledge << string
   end
   def knoledge
-   @knowledge_array
+   @knowledge
  end
 end
