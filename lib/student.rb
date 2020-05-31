@@ -1,5 +1,5 @@
 class Student < User
-  
+
   def initailze
     @knowledge= []
   end
